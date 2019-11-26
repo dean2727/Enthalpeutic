@@ -1,6 +1,6 @@
 .instruct {
     color: white;
-    margin-left: 20%;
+    margin-left: 21%;
     margin-top: 8%;
     font-size: 30px;
     text-shadow: 0 0 8px black;
@@ -16,21 +16,18 @@
      width: 250px;
      height: 100px;
      margin-top: 3%;
-     z-index: -1;
  }
  .field2 {
      margin-left: 23%; 
      width: 250px;
      height: 100px;
      margin-top: 4%;
-     z-index: -1;
  }
  .field3 {
     margin-left: 23%; 
     width: 250px;
     height: 100px;
     margin-top: 4%;
-    z-index: -1;
 }
  .submit {
      display: inline-block;
@@ -41,57 +38,55 @@
      text-decoration: none;
      text-decoration-color: white;
      outline: none;
-     color: #fff;
+     color: #FFF;
      background-color: rgb(16, 209, 16);
      height : 200px;
      width: 200px;
      position: absolute;
-     z-index: 1;
      opacity: .75; 
      border-radius: 70px;
-     margin-left: 67%;
-     margin-bottom: 80%;
-     border: 3px solid green;
+     margin-left: 65%;
+     margin-top: 6%;
+     border: 7px solid green;
  }
  .text1 {
      color: white;
      font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
      font-size: 18px;
-     margin-left: 10%;
+     margin-left: 4%;
+     margin-top: 2%;
      position: absolute;
-     z-index: 1;
-     margin-top: 3%;
  }
  .text2 {
      color: white;
      font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
      font-size: 18px;
-     margin-left: 2%;
+     margin-left: 5%;
+     margin-top: 2%;
      position: absolute;
-     z-index: 1;
-     margin-top: 4%;
  }
  .text3 {
     color: white;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     font-size: 18px;
-    margin-left: 9%;
+    margin-left: 6%;
+    margin-top: 2%;
     position: absolute;
-    z-index: 1;
-    margin-top: 5%;
 }
 .jsOutput {
     text-align: right;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-    margin-right: 20%;
-    margin-bottom: 80%;
+    margin-right: 28%;
+    margin-top: 2%;
     font-size: 25px;
     color: white;
+    height: 100px;
 }
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
+    font-size: 30px;
     box-sizing: border-box;
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
@@ -100,8 +95,7 @@ input[type=text] {
     width: 250px;
     height: 100px;
     margin-left: 25%;
-  }
-  
-  input[type=text]:focus {
+}
+input[type=text]:focus {
     border: 3px solid #555;
-  }
+}
